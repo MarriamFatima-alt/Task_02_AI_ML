@@ -47,6 +47,9 @@ GridSearchCV on Random Forest.
 **Logistic Regression** performed best overall (highest F1 Score and Recall, joint-highest Accuracy) and trained very fast. Hyperparameter tuning improved Random Forest (F1 from 0.5498 to 0.5870), but not enough to beat Logistic Regression. Even the best model misses about 44% of customers who actually churn, partly because the data is imbalanced (about 27% churn).
 
 ## Files
-- `Task_02_ML_Models.ipynb`: complete notebook
-- `WA_Fn-UseC_-Telco-Customer-Churn.csv`: dataset
-- `images/`: screenshots of each step
+- `notebook.ipynb`: complete notebook (code and outputs)
+- `dataset.csv`: Telco Customer Churn dataset (original Kaggle file name: WA_Fn-UseC_-Telco-Customer-Churn.csv)
+- `Images/`: screenshots of each step
+- `Marriam_Fatima_U-54_Task2.pdf`: final report
+
+Note: in the notebook the dataset is loaded as `WA_Fn-UseC_-Telco-Customer-Churn.csv`. To run it again, use `dataset.csv` in its place.
